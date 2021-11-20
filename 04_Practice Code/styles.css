@@ -1,0 +1,138 @@
+main {
+    background-color: #E4EBF1;
+    margin: 0px;
+    color: #3B5268;
+    border-style: solid;
+    border-color: #3B5268;
+    padding: 0px 10px 10px 10px;
+      font: lato;
+  }
+  
+  .btn-back{
+    width: 100px;
+    height: 50px;
+    border: none;
+    color: #E4EBF1;
+    background-color: #3B5268;
+    border-radius: 8px;
+    transition: ease-out 0.3s;
+    font-size: 1.5rem;
+    outline: none;
+    border: 3px solid #63F8CB;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .btn-back:hover{
+    color: #3B5268;
+    background-color: #63F8CB;
+    border-color: #3B5268;
+    cursor: pointer;
+  }
+  
+  .btn-back:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #63F8CB;
+  }
+  
+  .btn-back:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    
+  }
+  
+  .btn-calc {
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: #E4EBF1;
+    background-color: #3B5268;
+    border-radius: 8px;
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    outline: none;
+    border: 3px solid #63F8CB;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .btn-calc:hover{
+    color: #3B5268;
+    background-color: #63F8CB;
+    border-color: #3B5268;
+    cursor: pointer;
+  }
+  
+  .btn-calc:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #63F8CB;
+  }
+  
+  .btn-calc:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    
+  }
+  
+  .btn-results{
+    width: 125px;
+    height: 50px;
+    border: none;
+    color: #E4EBF1;
+    background-color: #3B5268;
+    border-radius: 8px;
+    transition: ease-out 0.3s;
+    font-size: .9rem;
+    outline: none;
+    border: 3px solid #63F8CB;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .btn-results:hover{
+    color: #3B5268;
+    background-color: #63F8CB;
+    border-color: #3B5268;
+    cursor: pointer;
+  }
+  
+  .btn-results:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #63F8CB;
+  }
+  
+  .btn-results:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    
+  }

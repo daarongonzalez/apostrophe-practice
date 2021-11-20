@@ -1,0 +1,1 @@
+chrome.runTime.onInstalled.addListener(function() {})
